@@ -64,10 +64,10 @@ Coloque o **Clarity Meter Pro** no **último insert do Master**.
 - **Cubase, Studio One, Reaper, Ableton, FL Studio… (VST3):** procure por Palitomix / Clarity Meter Pro.
 
 ### App de segunda tela
-Mede tudo o que sai do Mac (DAW, player, navegador) usando o **BlackHole 2ch**, que é grátis e instalado à parte:
+Mede tudo o que sai do Mac: DAW, player, navegador.
 
-1. Instale o **[BlackHole 2ch](https://existential.audio/blackhole/)** e reinicie o Mac.
-2. Abra o **Clarity Meter Pro** em Aplicativos → **Opções (⌘,)** → entrada = **BlackHole 2ch**, saída = sua interface de áudio.
+1. Abra o **Clarity Meter Pro** em Aplicativos. Na primeira vez ele oferece instalar o **dispositivo de áudio "Clarity Meter Pro"** (pede a senha do Mac e o som para por 2 segundos).
+2. Em **Opções (⌘,)**: entrada = **Clarity Meter Pro**, saída = sua interface de áudio.
 3. Com o roteamento automático ligado, o som continua saindo nos seus monitores e o medidor mostra tudo.
 
 **Atalhos:** `R` zera · `M` troca Radar / RTA / Scope · `T` troca o tema · `Espaço` inicia/para · roda do mouse = alvo (±1 LU; com Option ±0,5).
@@ -78,6 +78,7 @@ Mede tudo o que sai do Mac (DAW, player, navegador) usando o **BlackHole 2ch**, 
 
 **Freeware**: grátis para uso pessoal e profissional (pode usar em trabalhos pagos). Veja [`LICENCA.txt`](LICENCA.txt).
 Avisos de componentes de terceiros: [`AVISOS-DE-TERCEIROS.txt`](AVISOS-DE-TERCEIROS.txt).
+O dispositivo de áudio do app é baseado no BlackHole (GPL v3); o código dele está em [`codigo-do-driver`](codigo-do-driver).
 
 Este projeto é independente e **não tem afiliação** com a TC Electronic, a Music Tribe, a Avid ou a Steinberg. As marcas citadas pertencem aos seus donos.
 

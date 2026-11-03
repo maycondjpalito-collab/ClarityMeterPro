@@ -236,6 +236,11 @@ VST é marca registrada da Steinberg Media Technologies GmbH.
 Usado sob o Contrato de Licença do AAX SDK da Avid. AAX e Pro Tools são marcas registradas da Avid Technology, Inc.
 O plug-in AAX é assinado digitalmente com as ferramentas PACE Eden.
 
-=== BlackHole (Existential Audio) ===
-O app de segunda tela pode usar o BlackHole 2ch, que NÃO vem incluído: é instalado à parte
-pelo usuário, a partir do site oficial https://existential.audio/blackhole/ (licença GPL-3.0).
+=== Dispositivo de áudio "Clarity Meter Pro" - baseado no BlackHole (Existential Audio Inc.) ===
+O app instala um dispositivo de áudio virtual (ClarityMeterPro.driver) que é um programa separado,
+compilado a partir do BlackHole 0.6.0 SEM alterações (só o nome do dispositivo muda na compilação).
+Esse componente é distribuído sob a GNU GPL v3. O código-fonte completo dele, a licença e as
+instruções de compilação estão em:
+https://github.com/maycondjpalito-collab/ClarityMeterPro/tree/main/codigo-do-driver
+Fonte original: https://github.com/ExistentialAudio/BlackHole
+O restante do Clarity Meter Pro (app, plug-ins e medidor) é software próprio, sem código GPL.
