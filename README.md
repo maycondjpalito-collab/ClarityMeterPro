@@ -16,7 +16,9 @@ App de segunda tela + plug-in **VST3**, **AU** (Logic) e **AAX** (Pro Tools) com
 
 O pacote traz o app, os plug-ins VST3, AU e AAX e um instalador.
 
-**Requisitos:** macOS 10.15 (Catalina) ou mais novo · Apple Silicon (M1, M2, M3, M4…) ou Intel.
+**Requisitos:** macOS 10.15 (Catalina) ou mais novo.
+- Plug-ins VST3, AU e AAX: Apple Silicon (M1, M2, M3, M4…) e Intel.
+- App de segunda tela: Mac Intel nesta versão (versão para Apple Silicon chegando na 1.0.1).
 
 ---
 
