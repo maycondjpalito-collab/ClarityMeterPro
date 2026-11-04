@@ -12,13 +12,13 @@ App de segunda tela + plug-in **VST3**, **AU** (Logic) e **AAX** (Pro Tools) com
 
 ## ⬇️ Download
 
-👉 **[Baixar o Clarity Meter Pro 1.0.0 (macOS)](https://github.com/maycondjpalito-collab/ClarityMeterPro/raw/main/downloads/ClarityMeterPro-1.0.0-macOS.zip)**
+👉 **[Baixar o instalador — Clarity Meter Pro 1.0.1 (.pkg)](https://github.com/maycondjpalito-collab/ClarityMeterPro/raw/main/downloads/ClarityMeterPro-1.0.1.pkg)**
 
-O pacote traz o app, os plug-ins VST3, AU e AAX e um instalador.
+Instala o app de segunda tela, o dispositivo de áudio e os plug-ins VST3, AU e AAX.
 
-**Requisitos:** macOS 10.15 (Catalina) ou mais novo.
-- Plug-ins VST3, AU e AAX: Apple Silicon (M1, M2, M3, M4…) e Intel.
-- App de segunda tela: Mac Intel nesta versão (versão para Apple Silicon chegando na 1.0.1).
+<sub>Prefere instalar à mão? [Versão manual (.zip)](https://github.com/maycondjpalito-collab/ClarityMeterPro/raw/main/downloads/ClarityMeterPro-1.0.1-macOS.zip)</sub>
+
+**Requisitos:** macOS 10.15 (Catalina) ou mais novo · Apple Silicon (M1, M2, M3, M4…) ou Intel.
 
 ---
 
@@ -40,19 +40,21 @@ O áudio passa pelo plug-in **sem nenhuma alteração**: ele só mede.
 
 ## 🛠️ Como instalar
 
-1. Descompacte o `.zip` baixado.
-2. Clique com o **botão direito** em **`Instalar Clarity Meter Pro.command`** → **Abrir**.
-3. Aperte **Enter** e digite a **senha do Mac** quando pedir (ela não aparece enquanto você digita, é normal).
+1. Baixe o **`ClarityMeterPro-1.0.1.pkg`** e dê **dois cliques**.
+2. Siga as telas: **Continuar → Concordo → Instalar** e digite a senha do Mac.
+3. Quer só alguns itens? Na tela **Tipo de Instalação**, clique em **Personalizar** e escolha:
+   app, dispositivo de áudio, VST3, AU e/ou AAX.
 
 | Item | Pasta |
 |---|---|
 | App | `Aplicativos` |
-| VST3 | `~/Library/Audio/Plug-Ins/VST3` |
-| AU | `~/Library/Audio/Plug-Ins/Components` |
+| Dispositivo de áudio | `/Library/Audio/Plug-Ins/HAL` |
+| VST3 | `/Library/Audio/Plug-Ins/VST3` |
+| AU | `/Library/Audio/Plug-Ins/Components` |
 | AAX | `/Library/Application Support/Avid/Audio/Plug-Ins` |
 
-### 🔒 O macOS bloqueou o instalador?
-Abra **Ajustes do Sistema → Privacidade e Segurança**, role até o aviso do `Instalar Clarity Meter Pro.command` e clique em **Abrir Mesmo Assim**.
+### 🔒 O macOS não deixou abrir o instalador?
+Ele aparece como "de desenvolvedor não identificado". Abra **Ajustes do Sistema → Privacidade e Segurança**, role até o aviso do `ClarityMeterPro-1.0.1.pkg` e clique em **Abrir Mesmo Assim** (no macOS mais antigo: botão direito no arquivo → **Abrir**).
 
 ---
 
@@ -68,7 +70,7 @@ Coloque o **Clarity Meter Pro** no **último insert do Master**.
 ### App de segunda tela
 Mede tudo o que sai do Mac: DAW, player, navegador.
 
-1. Abra o **Clarity Meter Pro** em Aplicativos. Na primeira vez ele oferece instalar o **dispositivo de áudio "Clarity Meter Pro"** (pede a senha do Mac e o som para por 2 segundos).
+1. Abra o **Clarity Meter Pro** em Aplicativos (o dispositivo de áudio "Clarity Meter Pro" já foi instalado pelo instalador).
 2. Em **Opções (⌘,)**: entrada = **Clarity Meter Pro**, saída = sua interface de áudio.
 3. Com o roteamento automático ligado, o som continua saindo nos seus monitores e o medidor mostra tudo.
 
