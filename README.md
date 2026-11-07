@@ -12,11 +12,11 @@ App de segunda tela + plug-in **VST3**, **AU** (Logic) e **AAX** (Pro Tools) com
 
 ## ⬇️ Download
 
-👉 **[Baixar o instalador — Clarity Meter Pro 1.0.1 (.pkg)](https://github.com/maycondjpalito-collab/ClarityMeterPro/raw/main/downloads/ClarityMeterPro-1.0.1.pkg)**
+👉 **[Baixar o instalador — Clarity Meter Pro 1.0.2 (.pkg)](https://github.com/maycondjpalito-collab/ClarityMeterPro/raw/main/downloads/ClarityMeterPro-1.0.2.pkg)**
 
 Instala o app de segunda tela, o dispositivo de áudio e os plug-ins VST3, AU e AAX.
 
-<sub>Prefere instalar à mão? [Versão manual (.zip)](https://github.com/maycondjpalito-collab/ClarityMeterPro/raw/main/downloads/ClarityMeterPro-1.0.1-macOS.zip)</sub>
+<sub>Prefere instalar à mão? [Versão manual (.zip)](https://github.com/maycondjpalito-collab/ClarityMeterPro/raw/main/downloads/ClarityMeterPro-1.0.2-macOS.zip)</sub>
 
 **Requisitos:** macOS 10.15 (Catalina) ou mais novo · Apple Silicon (M1, M2, M3, M4…) ou Intel.
 
@@ -40,7 +40,7 @@ O áudio passa pelo plug-in **sem nenhuma alteração**: ele só mede.
 
 ## 🛠️ Como instalar
 
-1. Baixe o **`ClarityMeterPro-1.0.1.pkg`** e dê **dois cliques**.
+1. Baixe o **`ClarityMeterPro-1.0.2.pkg`** e dê **dois cliques**.
 2. Siga as telas: **Continuar → Concordo → Instalar** e digite a senha do Mac.
 3. Quer só alguns itens? Na tela **Tipo de Instalação**, clique em **Personalizar** e escolha:
    app, dispositivo de áudio, VST3, AU e/ou AAX.
@@ -54,7 +54,7 @@ O áudio passa pelo plug-in **sem nenhuma alteração**: ele só mede.
 | AAX | `/Library/Application Support/Avid/Audio/Plug-Ins` |
 
 ### 🔒 O macOS não deixou abrir o instalador?
-Ele aparece como "de desenvolvedor não identificado". Abra **Ajustes do Sistema → Privacidade e Segurança**, role até o aviso do `ClarityMeterPro-1.0.1.pkg` e clique em **Abrir Mesmo Assim** (no macOS mais antigo: botão direito no arquivo → **Abrir**).
+Ele aparece como "de desenvolvedor não identificado". Abra **Ajustes do Sistema → Privacidade e Segurança**, role até o aviso do `ClarityMeterPro-1.0.2.pkg` e clique em **Abrir Mesmo Assim** (no macOS mais antigo: botão direito no arquivo → **Abrir**).
 
 ---
 
